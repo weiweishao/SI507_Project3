@@ -165,6 +165,12 @@ def insert_bean_origin_id():
     conn.close()
 
 
+
+create_db()
+populate_db()
+insert_location_id()
+insert_bean_origin_id()
+
 # ========================= End of Part 1 =====================
 # Part 2: Implement logic to process user commands
 
